@@ -1,0 +1,7 @@
+//Chương trình xóa khoảng trắng của chuỗi
+public class ktrang
+{
+    public static void main(String[] args) {
+        
+    }
+}
