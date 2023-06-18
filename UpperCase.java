@@ -7,7 +7,7 @@ public class UpperCase
         //sử dụng class Scanner để nhận data từ bàn phím
         Scanner sc = new Scanner(System.in);
         String message;
-        System.out.println("\n\nNhập vào chuỗi cần in hoa ký tự đầu: ");
+        System.out.println("\n\nNhap vao chuoi can in hoa ky tu dau: ");
         message = sc.nextLine();
         /*
          Khai báo một mảng, sau đó sử dụng phương thức toCharArray()
@@ -34,7 +34,7 @@ public class UpperCase
             }
         }
     //chuyển đổi mảng char thành string
-    message = String.valueOf(charArray);
+    messagedo = String.valueOf(charArray);
     System.out.println("Chuoi sau khi doi: \n" + message);
     }
 }
